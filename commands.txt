@@ -1,3 +1,8 @@
 #change the ownership to all sub directories
 find dir -type d -exec chown -R {} \;  
 
+$ find . -name 'FolderBasename*' -type d
+or for more complex queries
+
+$ find . -regex '{FolderRegex}' -type d
+
