@@ -1,0 +1,7 @@
+/**
+common issues with the magento2 akeneo connector 
+1. Variant attributes does not mapped.
+2. Options does not exported.
+3. family does not linked to the attributes
+4. init
+*/
